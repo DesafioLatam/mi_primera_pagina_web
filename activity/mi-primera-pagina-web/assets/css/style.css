@@ -1,0 +1,59 @@
+/* Header */
+
+.header {
+  background-color: #111e2e;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.header span {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+/* Remenber Cards */
+
+.remember-cards {
+  padding: 30px 10px;
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+p{
+  font-weight: 300;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  height: 200px;
+}
+
+footer h2 {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+footer span {
+  font-size: 25px;
+  font-weight: 300;
+}
