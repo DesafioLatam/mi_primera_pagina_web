@@ -6,12 +6,11 @@ Bienvenidos a una nueva actividad de la Academia Desafío Latam, en esta oportun
 
 El objetivo, es utilizar esta tarde, para compartir una nueva experiencia, divertirnos y aprender a hacer una página web.
 
-Todos los pasos importantes que necesitas realizar se encuentran en esta guía, la revisaremos en conjunto y  haremos  las actividades. De esta forma aprenderemos en la práctica a construir una página web simple.
+Todos los pasos importantes que necesitas realizar se encuentran en esta guía, la revisaremos en conjunto y realizaremos las actividades. De esta forma aprenderemos de forma práctica a construir una página web simple.
 
 Si no tienes ningún conocimiento previo, no te preocupes, te guiaremos en el proceso.
 
 Trataremos de ir explicando cada término utilizado para que tengas un contexto de lo que estamos haciendo, y a tu disposición estarán los mentores para ayudarte cuando lo necesites. 
-
 
 ## ¿Qué se necesita para este taller?
 
@@ -24,13 +23,14 @@ Como navegador puedes ocupar alguno de los siguiente:
 - Chrome
 - Opera
 
-Como editor de texto te recomendamos:
+Como editor de texto te recomendamos uno de los siguientes:
 
 - [Atom](https://atom.io/)
 - [Sublime](https://www.sublimetext.com/)
 
-***Con el editor de texto instalado pasemos a la siguiente sección***
+En esta guía ocuparemos ATOM pero es muy similar a Sublime y puedes utilizar este útlimo si lo prefieres.
 
+***Con el editor de texto instalado pasemos a la siguiente sección***
 
 ## ¿Qué es lo que vamos a crear?
 
@@ -63,14 +63,13 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 
 Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, estamos acá para ayudar.
 
-
 #### Primer paso :
 
 Vamos a crear una carpeta nueva en el escritorio. Le puedes llamar como tu quieras, como ejemplo **"proyecto web"**, **"recuerdos"** etc.
 
 #### Segundo paso:
 
-Luego abriremos la carpeta en **Atom** (tú editor de texto).
+Luego abriremos la carpeta en **Atom** (o el editor de texto que estes ocupando).
 
 - Puede ser arrastrando la carpeta hacia el editor de texto
 - O abriéndola desde el editor de texto.
@@ -83,26 +82,22 @@ Ahora crearemos un archivo nuevo llamado `index.html` (debemos presionar sobre l
 
 Luego:
 
-Llamaremos a nuestro primer archivo
+Nombraremos a nuestro primer archivo `index.html`
 
-
-```
-index.html
-```
 
 ![imagen de Atom con index.html](./assets/img/Nuevo_archivo_Atom.png)
 
-Presionamos *enter* y el archivo quedó guardado como **index.html**
+Presionamos *enter* y el archivo quedará guardado como **index.html**
 
 #### Cuarto Paso:
 
-Ahora escribiremos, en nuestro archivo:
+Ahora escribiremos dentro de nuestro archivo algún texto, como por ejemplo:
 
 ```html
 Mi primera página web. :D
 ```
 
-Luego guardamos el archivo, para hacerlo puedes ir a la opción `File / save`, pero te recomiendo que utilices el atajo del teclado.
+Luego guardamos el archivo, para hacerlo puedes ir a la opción `File / save`, pero se recomienda utilizar el atajo del teclado.
 
 ***Ctrl + s (Windows, Linux) o  cmd + s (mac).***
 
@@ -113,7 +108,6 @@ Ahora podemos abrir este archivo con nuestro navegador, para lograrlo iremos a l
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
 ![imagen feliz día del](./assets/img/FirstPage.png)
-
 
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!*** Aún no tiene el aspecto esperado y aparecen algunos carácteres extraños, pero vamos paso a paso.
 
@@ -145,7 +139,7 @@ HTML es un lenguaje de **marcas**, cada una comenzando con `<` y terminando con 
 
 Entonces una página web es un archivo que contiene un conjunto de marcas ó etiquetas y el navegador lee (interpreta) estas marcas y con esa información  muestra las páginas web.
 
-##  ¿Que es la Estructura HTML?
+##  ¿Qué es la Estructura HTML?
 
 Un archivo HTML para poder ser interpretado correctamente deber tener una estructura. Esta estructura básica consiste en una **cabeza** (*head*) y un **cuerpo** (*body*), la cabeza contiene toda la información que es para el **navegador**, el cuerpo de la página contiene toda la información que es para el **usuario**. Dentro de las etiquetas HTML se encuentra todo el contenido de la página, y dentro de ellas están los dos bloques previamente mencionados.
 La estructura de una página en HTML es la siguiente:
@@ -188,17 +182,17 @@ Ahora ya tenemos la estructura de nuestra página.
 
 ![html-Autocompletado](./assets/img/html_estructura01.png)
 
-
 ¡No olvides guardar la página!, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 ### El título de la página
 
 Ahora vamos a añadir un título a la página, para ello vamos a rellenar información en el **head** de nuestro archivo `index.html`.
+
 Este título lo veremos en el navegador, posiblemente en la pestaña(tab) o barra superior.
 
 Para hacerlo, escribe entre las marcas `<title>` y `</title>` el título que deseas ponerle a tu página.
 
-En mi caso dejare el título **Mi primera página web**
+En mi caso dejaré el título **Mi primera página web**
 
 ```html
 <!DOCTYPE html>
@@ -221,7 +215,6 @@ Si guardamos, y recargamos el navegador, el resultado será el siguiente:
 
 >El título tiene mucho valor en el SEO(search engine optimization) de un sitio web, esto quiere decir que los títulos son importantes para posicionar una página en un buscador.
 
-
 ### Eliminando caracteres extraños
 Como recuerdan, nuestro primer mensaje tenía carácteres extraños donde se deberían mostrar tíldes o letras Ñ. Esto se arregla con la etiqueta `<meta charset="utf-8">`. Esta indica que la codificación de la página muestre estos carácteres.
 
@@ -232,6 +225,7 @@ También podemos ver que hay algo nuevo que no habíamos visto en otras etiqueta
 ### Etiquetas Básicas:
 
 Una etiqueta en HTML es un elemento que define como se comporta y muestra el contenido que alberga, vamos a utilizar algunas etiquetas básicas del lenguaje para darle sentido a nuestra página.
+
 Todo lo que veremos desde ahora se debe escribir dentro de **body** *(hasta que se indique lo contrario), por ende dentro de las etiquetas* `<body>` `</body>`
 
 ### Titulares y Subtitulares:
@@ -298,6 +292,7 @@ Si observamos la página que queremos lograr, el titular principal esta en dos l
   </body>
 </html>
 ```
+
 Guardamos y recargamos la página en el navegador, deberíamos ver algo como esto:
 
 ![br](./assets/img/br.png)
@@ -463,7 +458,7 @@ Para agregar imágenes utilizando esa etiqueta puedes hacerlo de dos maneras:
 
 ### Imágenes desde Internet:
 
-Podremos ingresar cualquier foto que este en Internet si utilizamos su URL. URL quiere decir que es una dirección que apuntara hacia ese recurso.
+Podremos ingresar cualquier foto que este en Internet si utilizamos su URL. URL quiere decir que es una dirección que apuntará hacia ese recurso.
 
 Puedes ir a tu red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscar en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
 
@@ -694,7 +689,7 @@ Como en este ejemplo:
 
 *Ojo que este ejemplo es nuestro taller anterior, pero es la misma dinámica*
 
-### main
+### Main
 
 La etiqueta main nos indicará el contenido principal de nuestra página, en nuestro caso serán las tarjetas que contendrán las fotos y nuestros recuerdos.
 
@@ -722,23 +717,24 @@ Guarda y recarga la página, el final de tu pápáginagina debería verse así.
 
 ![](./assets/img/inicialfooter.png)
 
-
 ### Divs:
 
-Los divs son etiquetas que permiten anidar a otras etiqueta y nos permitirán darle un  estilo propio a la agrupación (esto lo haremos más adelante con CSS).
-Envuelve varias etiquetas, y todas las etiquetas envueltas por él, están bajo la influencia del div.
-vamos a añadir muchos divs en nuestra página, mucha atención:
-Primero tendremos un gran div que agrupará todos los elementos de `main`. Fíjate en el siguiente ejemplo:
+Los divs son etiquetas que permiten anidar a otras etiqueta y nos permitirán darle un estilo propio a la agrupación (esto lo haremos más adelante con CSS).
+
+Un div puede envolver varias etiquetas, y todas las etiquetas envueltas por él quedarán bajo la influencia del div.
+
+Para probar esto vamos a añadir muchos divs en nuestra página, por lo que tenemos que prestar mucha atención.
+
+Nuestro primer gran div agrupará todos los elementos de `main`. Fíjate en el siguiente ejemplo:
 
 ![gif div principal](./assets/img/divprincipal.gif)
 
 
 **Por defecto al autocompletar un `div` aparece la etiqueta `class=""`, por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
 
-Cada div puede indicar una clase específica, esto servirá más  adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
+Cada div puede indicar una clase específica, esto servirá más adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
 
 Ya tenemos un gran `div`, ahora vamos añadir otros para segmentar nuestro código.
-
 
 ![](./assets/img/divcarddeck.gif)
 
@@ -915,16 +911,14 @@ Sólo hicimos la primera tarjeta, realiza el mismo proceso para el resto. Al fin
 **Genial, ya tenemos la estructura HTML de nuestra página sólo nos queda darle vida y alegría.**
 
 
-
 # Capítulo 2 Darle cariño a la página
 
-Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie sin su CSS.
+Ahora vamos a trabajar en el aspecto viusal de nuestra página web. Porque un HTML no es nadie sin su CSS.
 
 
 ![imagen de html css y js](./assets/img/htmlcssjs.png)
 
 Hemos aprendido algunas cosas esenciales de HTML, lo  que vendría siendo el esqueleto de nuestro sitio web, ahora le añadiremos la "piel", el diseño, y eso lo hacemos con CSS.
-
 
 # ¿Qué es CSS?
 
@@ -988,6 +982,7 @@ Primero crearemos una carpeta llamada `css` al interior de `assets`.
 ~~~
 
 Luego crearemos con **ATOM**  este nuevo archivo, botón derecho sobre la nueva carpeta creada y seleccionaremos `new file` con el nombre `style.css`
+
 El nombre no importa, lo importante es que sea `.css` para que sepa que estamos escribiendo CSS. Para decirle a nuestra página que este será el archivo que utilizaremos debemos ocupar la etiqueta *link* dentro del `<head>`.
 
 Escribiremos lo siguiente.
@@ -1040,7 +1035,9 @@ Guarda y ve el resultado, debería verse así:
 ![imagen de estilo](./assets/img/colortitulos.png)
 
 Lo que hace el código anterior es tomar todas las etiquetas al interior de header y aplicarle el color blanco (Siempre debes escribir los colores en inglés).
+
 El color de fondo se añadió con la propiedad `background-color`.
+
 Vemos que ahora tenemos toda la página con un color distinto al por defecto que es blanco.
 
 Nótese también que ahora no se utilizó darle el color nombrándolo, sino que se utilizó el sistema hexadecimal.
@@ -1049,11 +1046,9 @@ Más sobre colores en CSS [aquí](http://htmlcolorcodes.com/es/tutoriales/concep
 
 Elige el color que quieras para el fondo de tu página, puedes ayudarte con el siguiente selector de colores.
 
-[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Qué ocurre si necesito, modificar sólo uno específico?
+[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Qué ocurre si necesito, modificar sólo uno específico? Para lograrlo necesitamos introducir el concepto de identificador (ID) y el de clase (class).
 
-Ahora lo sabrás:
-
-## ID y Clases
+## Id y Class
 
 Los **ID** son identificadores **únicos** para cada etiqueta, es como un nombre que se le da a la etiqueta para hacerla única.
 
@@ -1077,7 +1072,7 @@ De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos. A
 #parrafo1 {	color: blue;	}
 ~~~
 
-Ahora sólo mi párrafo con id "parrafo1" tendrá el texto azul.
+Al guardar los cambios el párrafo con id "parrafo1" tendrá el texto azul.
 
 Se escribe `#` para referirse a una id, y más el nombre para saber a cuál id me estoy refiriendo.
 
@@ -1113,14 +1108,14 @@ Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan
   <header class="container-fluid header">
 ```
 
-ingresamos dos clases a esta etiqueta `container-fluid` y `header`
+Ingresaremos dos clases a esta etiqueta `container-fluid` y `header`
 
 2. En nuestra etiqueta `main` añade la clase:
 	
 ```html
   <main class="container">
 ```
-ingresamos una clase a esta etiqueta `container`
+Ingresaremos una clase a esta etiqueta `container`
 
 3.	El primer `div` bajo main tendra la siguiente clase:
 	
@@ -1128,14 +1123,15 @@ ingresamos una clase a esta etiqueta `container`
   <div class="row">
 ```
 
-ingresamos la clases `row` a esta estiqueta que envuelve todos los otros divs.
+Ingresaremos la clases `row` a esta estiqueta que envuelve todos los otros divs.
 	
 4. El div que agrupa 3 tarjetas llevará la siguiente clase:
 	
 ```html
 	<div class="col-md-4">
 ```
-  ingresamos la clases `col-md-4` a esta estiqueta.
+ 
+ Ingresamos la clases `col-md-4` a esta estiqueta.
 
 Si añadiste todas las etiquetas de forma correcta tu código debería verse así:
 
@@ -1229,9 +1225,7 @@ Si añadiste todas las etiquetas de forma correcta tu código debería verse as�
 ```
 
 Ahora que nuestro código está completamente identificado con clases. Vamos a seguir modificando las propiedades de estilo.
-
-
-Ahora vamos a explicar algunos efectos que vamos añadir más adelante.
+Vamos a explicar algunos efectos que vamos añadir más adelante.
 
 ### Tamaño de la fuente
 
@@ -1265,7 +1259,7 @@ Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 ~~~
 
-y finalmente utilizarla en nuestro archivo style.css
+Y luego degemos agregarla a nuestro archivo style.css
 
 ~~~css
 body {
@@ -1356,6 +1350,7 @@ Hemos aprendido y celebrado de forma divertida.
 ![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
 
 ********
+
 # Capítulo 3
 ## Desafío 
 
@@ -1380,7 +1375,7 @@ Bootstrap es el framework más popular para el desarrollo de sitios responsive e
 
 ### Utilizando Bootstrap
 
->Observación: En esta guía se estará utilizando la versión **v4.1.1** de Bootstrap
+>Observación: En esta guía se estará utilizando la versión **v4.1.1** de Bootstrap y no es compatible con versiones anteriores.
 
 Para integrar Boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
 
