@@ -713,7 +713,7 @@ Luego, al interior de footer incluye lo siguiente
   <h2><span>Todos los derechos reservados <br> ©2018</h2>
 </footer>
 ```
-Guarda y recarga la página, el final de tu pápáginagina debería verse así.
+Guarda y recarga la página, el final de tu páginagina debería verse así.
 
 ![](./assets/img/inicialfooter.png)
 
@@ -913,7 +913,7 @@ Sólo hicimos la primera tarjeta, realiza el mismo proceso para el resto. Al fin
 
 # Capítulo 2 Darle cariño a la página
 
-Ahora vamos a trabajar en el aspecto viusal de nuestra página web. Porque un HTML no es nadie sin su CSS.
+Ahora vamos a trabajar en el aspecto visual de nuestra página web. Porque un HTML no es nadie sin su CSS.
 
 
 ![imagen de html css y js](./assets/img/htmlcssjs.png)
@@ -1385,7 +1385,7 @@ El CDN consiste simplemente en 2 archivos CSS y un archivo JS de Bootstrap y jQu
 >pero está optimizada para la descarga rápida de assets, además que los CDN tienen servidores en diversas partes del mundo disminuyendo el impacto en la velocidad por distancia.
 
 
-### Añade bootstrap a tu proyecto y ve como se transforma.
+### Añade Bootstrap a tu proyecto y ve como se transforma.
 
 Durante la construcción del curso utilizamos muchas clases que aun no estamos utilizando, y claro, nuestro sitio no se ve como el de la foto.
 
