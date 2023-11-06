@@ -25,10 +25,8 @@ Como navegador puedes ocupar alguno de los siguiente:
 
 Como editor de texto te recomendamos uno de los siguientes:
 
-- [Atom](https://atom.io/)
+- [Visual Studio Code](https://code.visualstudio.com)
 - [Sublime](https://www.sublimetext.com/)
-
-En esta guía ocuparemos ATOM pero es muy similar a Sublime y puedes utilizar este útlimo si lo prefieres.
 
 ***Con el editor de texto instalado pasemos a la siguiente sección***
 
@@ -57,6 +55,8 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 
 ***JS (JavaScript):***  Es un lenguaje de programación que permite modificar dinámicamente elementos de HTML y CSS y de esta forma agregar componentes y comportamientos nuevos a la página web así como agregar diversos tipos de animaciones e interactuar con información de otros sitios web.
 
+***HTML (Lenguaje de Marcado de Hipertexto):***  Es el lenguaje estándar utilizado para crear y diseñar páginas web. Define la estructura y el contenido de una página web al proporcionar un conjunto de etiquetas que describen cómo se deben mostrar los elementos en un navegador web.
+
 ![](https://media.giphy.com/media/ZEobigiRBFc7S/giphy.gif)
 
 ### Primeros pasos con una página web:
@@ -69,7 +69,7 @@ Vamos a crear una carpeta nueva en el escritorio. Le puedes llamar como tu quier
 
 #### Segundo paso:
 
-Luego abriremos la carpeta en **Atom** (o el editor de texto que estes ocupando).
+Luego abriremos la carpeta en el editor de texto que estés ocupando.
 
 - Puede ser arrastrando la carpeta hacia el editor de texto
 - O abriéndola desde el editor de texto.
@@ -111,6 +111,8 @@ Al abrirlo en el navegador te debería aparecer algo como esto:
 
 ***Felicidades!!	Ya estás escribiendo tú primera página web!!!*** Aún no tiene el aspecto esperado y aparecen algunos carácteres extraños, pero vamos paso a paso.
 
+Te recomendamos instalar la extension Live Server y ocuparla para ver tu index.html
+
 ### Recapitulemos
 
 Fueron sólo 5 pasos, fácil ¿cierto?.
@@ -124,6 +126,8 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 ***¿Por qué la extensión del archivo es .html?***
 
 El que sea *.html* dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, en la siguiente sección aprenderemos más sobre HTML.
+
+Puedes obtener más información sobre HTML en el siguiente link: https://developer.mozilla.org/es/docs/Web/HTML
 
 ## ¿Qué es HTML?
 
@@ -182,7 +186,7 @@ Ahora ya tenemos la estructura de nuestra página.
 
 ![html-Autocompletado](./assets/img/html_estructura01.png)
 
-¡No olvides guardar la página!, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
+¡No olvides guardar la página!, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , el editor de texto borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 ### El título de la página
 
@@ -981,7 +985,7 @@ Primero crearemos una carpeta llamada `css` al interior de `assets`.
 			   └───style.css
 ~~~
 
-Luego crearemos con **ATOM**  este nuevo archivo, botón derecho sobre la nueva carpeta creada y seleccionaremos `new file` con el nombre `style.css`
+Luego crearemos con **el editor de tecto**  este nuevo archivo, botón derecho sobre la nueva carpeta creada y seleccionaremos `new file` con el nombre `style.css`
 
 El nombre no importa, lo importante es que sea `.css` para que sepa que estamos escribiendo CSS. Para decirle a nuestra página que este será el archivo que utilizaremos debemos ocupar la etiqueta *link* dentro del `<head>`.
 
@@ -991,7 +995,7 @@ Escribiremos lo siguiente.
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 ```
 
->En Atom si se escribe link y luego se autocompleta con `tab`, la línea para agregar un CSS externo se escribe sola. Quedando nuestro head de la siguiente manera:
+>En el editor de texto si se escribe link y luego se autocompleta con `tab`, la línea para agregar un CSS externo se escribe sola. Quedando nuestro head de la siguiente manera:
 
 ~~~html
 <!DOCTYPE html><html><head>
